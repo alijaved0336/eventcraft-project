@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Env — NEVER commit
+.env
+.env.local
+.env.staging
+.env.production
+
+# Logs (written by Winston)
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Docker local volumes
+.docker-volumes/
+
+# Generated types
+src/types/generated/
+*.generated.ts
